@@ -24,5 +24,39 @@ h1, h2, h3, h4, h5, h6  {
     font-weight: normal;
 }
 
+
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
 .content {
+}
+
+.content > .header > h2 {
+    display: inline-block;
+    margin: 0 1rem 0 0;
+}
+.content > .header > a {
+    vertical-align: bottom;
+}
+.content > header {
+    margin-bottom: .5rem;
+}
+
+.content > .rows > .row {
+    margin-bottom: .25rem;
+}
+.content > .rows > .row > * {
+    display: inline-block;
+}
+.content > .rows > .row > img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: .5rem;
+}
+.content > .rows > .row > .name {
+    margin-right: .5rem;
 }
