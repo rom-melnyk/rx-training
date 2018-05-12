@@ -4,7 +4,7 @@
   "description": "RxJS training",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "tsc --watch --outFile ./demo/js/demo.js src/index.ts",
+    "dev": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,6 +19,12 @@
   "license": "ISC",
   "dependencies": {
     "rxjs": "^6.1.0",
+    "rxjs-compat": "^6.1.0",
     "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.3.0",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3"
   }
 }
