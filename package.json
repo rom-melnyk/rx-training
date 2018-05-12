@@ -1,0 +1,24 @@
+{
+  "name": "rx-training",
+  "version": "1.0.0",
+  "description": "RxJS training",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsc --watch --outFile ./demo/js/demo.js src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reactive",
+    "rx",
+    "rxjs",
+    "observable",
+    "ts",
+    "typescript"
+  ],
+  "author": "Roman Melnyk <https://melnyk.site>",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.1.0",
+    "typescript": "^2.8.3"
+  }
+}
