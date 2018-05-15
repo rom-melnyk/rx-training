@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6  {
 .content > .rows > .row {
     margin-bottom: .25rem;
 }
+.content > .rows > .row.hidden {
+    display: none;
+}
 .content > .rows > .row > * {
     display: inline-block;
 }
